@@ -1,5 +1,6 @@
 package com.launcher.webservice.domain.posts;
 
+import com.launcher.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

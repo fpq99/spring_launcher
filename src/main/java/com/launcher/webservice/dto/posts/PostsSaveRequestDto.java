@@ -1,5 +1,6 @@
-package com.launcher.webservice.domain.posts;
+package com.launcher.webservice.dto.posts;
 
+import com.launcher.webservice.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

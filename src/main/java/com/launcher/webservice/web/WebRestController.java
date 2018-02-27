@@ -1,6 +1,6 @@
 package com.launcher.webservice.web;
 
-import com.launcher.webservice.domain.posts.PostsSaveRequestDto;
+import com.launcher.webservice.dto.posts.PostsSaveRequestDto;
 import com.launcher.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,8 +20,8 @@ public class WebRestController {
     }
 
     @PostMapping("/posts")
-    public void savePosts(@RequestBody PostsSaveRequestDto dto) {
-        postsService.save(dto);
+    public Long savePosts(@RequestBody PostsSaveRequestDto dto) {
+        return postsService.save(dto);
     }
 
 }

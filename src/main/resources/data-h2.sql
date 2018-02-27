@@ -1,0 +1,2 @@
+insert into posts (title, author, content, created_date, modified_date) values ('첫번째 글', 'test@a.b.c', '첫번째 글 입니다. 테스트 중', now(), now())
+insert into posts (title, author, content, created_date, modified_date) values ('두번째 글', 'test@c.c', '두번째 글 입니다. 두번째는 그냥 다르게 적어봅니다.', now(), now())
